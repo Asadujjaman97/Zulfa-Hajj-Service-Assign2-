@@ -175,6 +175,10 @@ body {
     height: 70vh;
   }
 }
+.carousel-caption a:hover {
+  text-decoration: underline;
+  color: #ffd700; /* gold hover */
+}
 
 
 
