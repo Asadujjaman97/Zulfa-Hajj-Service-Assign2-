@@ -173,3 +173,7 @@ body {
   background-color: #f8f9fa;
   border-radius: 0 0 10px 10px;
 }
+body {
+  padding-top: 100px; 
+}
+
