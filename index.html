@@ -88,6 +88,11 @@
         <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center">
           <h1 class="fw-bold display-5">Your Trusted Partner for a Blessed Journey with <span class="text-success">ZULFA</span></h1>
           <p class="lead mb-4">From guidance to accommodation, we ensure every moment of your Hajj or Umrah experience is filled with comfort and devotion.</p>
+         <!-- hajj guide connect button -->
+          <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#hajjGuideModal">
+            Hajj Guide
+          </button> <br>
+
           <a href="./service.html" class="btn btn-primary px-4 py-2 fw-semibold">Learn More</a>
         </div>
       </div>
@@ -368,5 +373,28 @@ Zulfa Hajj Service walks beside you with care and sincerity, guiding you toward 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+
+<!-- pdf connect here -->
+ <!-- Hajj Guide Modal -->
+<div class="modal fade" id="hajjGuideModal" tabindex="-1" aria-labelledby="hajjGuideModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold" id="hajjGuideModalLabel">Official Hajj Guide (Bangladesh Govt.)</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="height: 80vh;">
+        <iframe 
+          src="https://ehaj.hajj.gov.bd/news/uploads/662b7a0f49e610.302691001714125327.pdf" 
+          width="100%" 
+          height="100%" 
+          style="border: none;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
